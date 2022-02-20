@@ -19,35 +19,21 @@
     text-decoration: none;
 } */
 
-img, svg {
-  vertical-align: middle;
-  width: 50px;
-  height: 50px;
-}
 li {
   display: inline;
   margin-right: 40px;
 }
-nav ul li a{
-  color: rgb(241, 152, 35);
-}
-nav ul li a:hover{
-  color: blanchedalmond;
-}
-#liBackgroundColor{
-  background-color: #797676;
-}
+
 .navbar-collapse {
   justify-content: flex-end;
 }
 .header {
   /* background-image: url('../assets/images/home1.jpg'); */
-  background-size:auto;
+  background-size: cover;
   background-position: center;
   position: relative;
-  background-color: rgb(250, 223, 173);
   /* height: 100%;
-    width: 100%; */
+        width: 100%; */
 }
 .description {
   position: relative;

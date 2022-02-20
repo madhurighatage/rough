@@ -1,47 +1,88 @@
-<section style="margin-top:-47px;">
-  <div class="container mt-5 ">
+<br>
+<br><br>
+<div class="section white_bg">
+  <div class="inner_container container_space">
+      <div class="row mb-4">
+          <div class="col-sm-15">
+              <div class="section_title">
+                  <h2>Plan Your Loan</h2>
+              </div>
+          </div>
+      </div>
+      <div class="row">
+          <div class="col-sm-12 col-md-6 col-lg-4 mb-3 text-center">
+              <a routerLink="/calculator" class="link">
+                  <div class="box_card full_width">
+                      <span class="icon"> <i class="fas fa-rupee-sign fa-lg white-text mr-md-5 mr-3 fa-2x">                         
+                      </i></span>
+                      <div class="caption">
+                          <span class="title">
+                              What would be <br>
+                              my EMI?
+                          </span>
+                      </div>
+                      <div class="cta home_loan"> Calculate > </div>
+                  </div>
+              </a>
+          </div>
+          <div class="col-sm-12 col-md-6 col-lg-4 mb-3 text-center">
+              <a href="/calculator/loan-eligibility-calculator" class="link"> 
+                  <div class="box_card full_width">
+                      <span class="icon borrow"><i class="fas fa-percent fa-lg white-text mr-md-5 mr-3 fa-2x"></i>
+                      </span>
+                      <a class="fb-ic">              
+                       
+                    </a>
+                      <div class="caption">
+                          <span class="title">
+                              How much loan <br>
+                              can I borrow?
+                          </span>
+                      </div>
+                      <div class="cta home_loan">Calculate > </div>
+                  </div>
+              </a>
+          </div>
+          <div class="col-sm-12 col-md-12 col-lg-4 mb-3 text-center">
+            <a href="/calculator/loan-eligibility-calculator" class="link"> 
+                  <div class="box_card full_width">
+                      <span class="icon refinancing"><i class="fas fa-solid fa-clock fa-lg white-text mr-md-5 mr-3 fa-2x"></i>
+                      </span>                    
+                      <div class="caption">
+                          <span class="title">
+                              Want a quick loan sanction?
+                          </span>
+                      </div>
+                      <div class="cta home_loan">Quick Apply > </div>
+                  </div>
+              </a>
+          </div>
+      </div>
+  </div>
+</div>
+
+<br>
+
+<section>
+  <div class="container mt-5">
     <div class="row">
       <div class="col-sm-12">
         <div class="accordion_wrapp box_style">
           <div class="accordion" id="myAccordion">
             <br />
-            <button type="button" class="btn btn-primary btn-lg btn-block btn-position btn-color" data-toggle="collapse"
-              data-target="#collapsible-1">
-              <span class=""></span>Salaried employees<span class="indicator"></span>
+            <button
+              type="button"
+              class="btn btn-danger"
+              data-toggle="collapse"
+              data-target="#collapsible-1"
+            >
+              <span class=""></span>Salaried employees<span
+                class="indicator"
+              ></span>
             </button>
-            <div id="collapsible-1" data-parent="#myAccordion" class="collapse" style="margin: 50px;">
-              <div class="container">
-                <div class="row">
-                  <div class="col-sm">
-                    <h4>Age</h4>
-                    <ul class="list">
-                      <li>21 years to 70 years</li>
-                      <li>
-                        NOTE: This home loan can be availed only till an individual
-                        remains an income contributor.
-                      </li>
-                    </ul>
-                  </div>
-                  <div class="col-sm">
-                    <h4>Employment</h4>
-                    <p>Individuals working under the following can apply:</p>
-                    <ul class="list">
-                      <li>Government Institution</li>
-                      <li>Private sector</li>
-                      <li>Public sector</li>
-                      <li>MNCs or related companies</li>
-                      <li>Partnership Firms</li>
-                      <li>Proprietorship concern</li>
-                      <li>NGOs or related organisations</li>
-                    </ul>
-                  </div>
-                  <div class="col-sm">
-                    <h4>Home Loan Documents</h4>
-                  </div>
-                </div>
-              </div>
 
-              <!-- <div class="accord_content col-md-6">
+            <div id="collapsible-1" data-parent="#myAccordion" class="collapse">
+              <div class="accord_content col-md-6">
                 <h4>Age</h4>
                 <ul class="list">
                   <li>21 years to 70 years</li>
@@ -60,23 +101,24 @@
                   <li>Partnership Firms</li>
                   <li>Proprietorship concern</li>
                   <li>NGOs or related organisations</li>
-                </ul> -->
-              <div>
-                <button type="button" class="applyBtn  btn-lg col-md-12 " routerLink="/registration" style="width:15%">
-                  Apply
-                </button>
+                </ul>
               </div>
-
             </div>
             <br />
 
-            <button type="button" class="btn btn-primary btn-lg btn-block mb-1 btn-color" data-toggle="collapse"
-              data-target="#collapsible-2">
-              <span class="text-center"></span>Self-employed individuals:<span class="indicator"></span>
+            <button
+              type="button"
+              class="btn btn-danger mb-1"
+              data-toggle="collapse"
+              data-target="#collapsible-2"
+            >
+              <span class="text-center"></span>Self-employed individuals:<span
+                class="indicator"
+              ></span>
             </button>
 
             <div id="collapsible-2" data-parent="#myAccordion" class="collapse">
-              <!-- <div class="accord_content">
+              <div class="accord_content">
                 <h4>Age</h4>
                 <p>23 years - 70 years</p>
                 <h4>Employment</h4>
@@ -89,46 +131,18 @@
                     etc.
                   </li>
                 </ul>
-               
-              </div> -->
-              <div class="container">
-                <div class="row">
-                  <div class="col-sm">
-                    <h4>Age</h4>
-                    <ul class="list">
-                      <li>23 years - 70 years</li>
-                      <li>
-                        Self-employed professionals (doctors, architects, etc)
-                      </li>
-                    </ul>
-                  </div>
-                  <div class="col-sm">
-                    <h4>Employment</h4>
-                    <p>Individuals working under the following can apply:</p>
-                    <ul class="list">
-                      <li>Government Institution</li>
-                      <li>Private sector</li>
-                      <li>Public sector</li>
-                      <li>MNCs or related companies</li>
-                      <li>Partnership Firms</li>
-                      <li>Proprietorship concern</li>
-                      <li>NGOs or related organisations</li>
-                    </ul>
-                  </div>
-                  <div class="col-sm">
-                    <h4>Home Loan Documents</h4>
-                  </div>
-                </div>
               </div>
-
-              <button type="button" class="applyBtn btn-secondary btn-lg" style="width:20%">
-                Apply
-              </button>
             </div>
             <br />
-            <button type="button" class="btn btn-primary btn-lg btn-block mb-1 btn-color" data-toggle="collapse"
-              data-target="#collapsible-3">
-              <span class="text-center"></span>Pradhan Mantri Awas Yojana<span class="indicator"></span>
+            <button
+              type="button"
+              class="btn btn-danger mb-1"
+              data-toggle="collapse"
+              data-target="#collapsible-3"
+            >
+              <span class="text-center"></span>Pradhan Mantri Awas Yojana<span
+                class="indicator"
+              ></span>
             </button>
 
             <div id="collapsible-3" data-parent="#myAccordion" class="collapse">
@@ -148,15 +162,18 @@
                   </li>
                   <li>***</li>
                 </ul>
-                <button type="button" class="applyBtn btn-secondary btn-lg" style="width:20%">
-                  Apply
-                </button>
               </div>
             </div>
-            <br>
-            <button type="button" class="btn btn-primary btn-lg btn-block btn-color" data-toggle="collapse"
-              data-target="#collapsible-4">
-              <span class=""></span>Home loan for NRI<span class="indicator"></span>
+<br>
+            <button
+              type="button"
+              class="btn btn-danger"
+              data-toggle="collapse"
+              data-target="#collapsible-4"
+            >
+              <span class=""></span>Home loan for NRI<span
+                class="indicator"
+              ></span>
             </button>
 
             <div id="collapsible-4" data-parent="#myAccordion" class="collapse">
@@ -180,9 +197,6 @@
                   <li>Proprietorship concern</li>
                   <li>NGOs or related organisations</li>
                 </ul>
-                <button type="button" class="applyBtn btn-secondary btn-lg" style="width:20%">
-                  Apply
-                </button>
               </div>
             </div>
             <br />

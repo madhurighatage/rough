@@ -7,11 +7,6 @@ import { HomePageComponent } from './Components/home-page/home-page.component';
 import { LoanComponent } from './Components/loan/loan.component';
 
 import { HomeLoanComponent } from './Components/home-loan/home-loan.component';
-import { RegistrationComponent } from './Components/registration/registration.component';
-import { BrowserModule } from '@angular/platform-browser';
-import { FormsModule, ReactiveFormsModule } from '@angular/forms';
-import { NgxSliderModule } from '@angular-slider/ngx-slider';
-import { Ng5SliderModule } from 'ng5-slider';
 
 const routes: Routes = [
   {path: 'home', component: HomePageComponent},
@@ -20,7 +15,9 @@ const routes: Routes = [
   {path: 'loan', component: LoanComponent},
   {path: 'calculator', component: CalculatorComponent},
   {path: 'homeloan', component:HomeLoanComponent },
-  {path: 'registration', component:RegistrationComponent},
+
+  {path: '', component: HomePageComponent},
+
 ];
 
 @NgModule({
