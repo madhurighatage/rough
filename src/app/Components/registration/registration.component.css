@@ -1,0 +1,16 @@
+.form-control{
+ margin-left: 25%;
+ width: 50%;
+}
+.col-form-label{
+ margin-left: 25%;
+}
+.text-danger{
+    margin-left: 25%;
+}
+.form-control.ng-touched.ng-invalid{
+    border: 2px solid red;
+}
+.form-control.ng-touched.ng-valid{
+    border: 2px solid green;
+}
